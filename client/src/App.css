@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+input,button{
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+}
+.Fooditem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin: 12px 10px;
+  width: 200px;
+  border: 2px solid black;
+}
+.Content{
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.Fooditem button{
+  width: 40%;
+}
+.Fooditem input{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Fooditem h1{
+  margin: 5px;
+  padding: 5px;
+}
